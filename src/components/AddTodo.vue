@@ -25,6 +25,7 @@ export default {
       // Send up to parent
       this.$emit('add-todo', newTodo);
 
+      // Clear the form after submit
       this.title = '';
     }
   }

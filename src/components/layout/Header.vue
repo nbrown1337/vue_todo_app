@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <h1>TodoList</h1>
-    <div id="nav">
+    <div id="nav" class="header_links">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
@@ -27,6 +27,11 @@ export default {
     padding-right: 5px;
     text-decoration: none;
   }
+
+  .header_links {
+    padding: 10px;
+  }
+
 </style>
 
 
